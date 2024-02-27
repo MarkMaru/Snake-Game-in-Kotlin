@@ -1,46 +1,25 @@
-# Snake Game Android
-Snake game for Android made with Jetpack Compose. 
-Blog Post: https://medium.com/@themukeshsolanki/classic-snake-game-with-jetpack-compose-2b78f4892ca
+Project Overview:
+The project was to create a snake game, which would utilize the engine from the world popular mini game, but translate that logic into Android Studios Kotlin.
+What I did do?
+A snake game
+A menu screen
+A local data storage solution for usernames and scores
+A multi view app with lots of scalability and dependencies in mind
+Procrastinate
+Wish list of features for the next version:
+Skins for the snake/app when you reach a certain score
+Make the game a bit more interesting, like adding obstacles or foes
+Music
+Some animations in the menu
+Self-evaluation:
+My grade could be average, but at the same time, I feel as if we were not expected to make a groundbreaking app right from one semester of learning Android Studio. I believe I gave my best, and I hope to someday use this knowledge for my future endeavors.
 
-<img src="https://raw.githubusercontent.com/mukeshsolanki/snake-game-android/main/screenshots/menu.png" width="248px"/> &nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/mukeshsolanki/snake-game-android/main/screenshots/ingame.png" width="248px"/> &nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/mukeshsolanki/snake-game-android/main/screenshots/endgame.png" width="248px"/> &nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/mukeshsolanki/snake-game-android/main/screenshots/highscore.png" width="248px"/> &nbsp;&nbsp;
+References: 
 
-## How to build the app
-1. Clone the repository.
-2. Goto Android Studio and open the project.
-The project should compile properly no additional steps needed
+The tutorials I had to use to help me understand the game logic: https://www.youtube.com/watch?v=O3vsO8CR8VI by Juraj Kusnier
 
-## Author
-Maintained by [Mukesh Solanki](https://www.github.com/mukeshsolanki)
+To understand the DataStore solution: https://www.youtube.com/watch?v=RQKP7TtiOrU by Android Geek
 
-## Contribution
-[![GitHub contributors](https://img.shields.io/github/contributors/mukeshsolanki/snake-game-android.svg)](https://github.com/mukeshsolanki/snake-game-android/graphs/contributors)
+Font to make the game a bit more aesthetically pleasing: https://www.dafont.com/nokia-cellphone.font by Zeh Fernando
 
-* Bug reports and pull requests are welcome.
-
-## License
-```
-MIT License
-
-Copyright (c) 2018 Mukesh Solanki
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+Regarding the app structure and components, they are sorted based on if they belong in the data, domain or presentation layer (I found on some forums and videos mentioning this, but it is pretty much just MVP sorting). Data consists of files that save player and score data, domain is for the backend, and presentation is for frontend. 
