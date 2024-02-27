@@ -1,11 +1,13 @@
 Project Overview:
 The project was to create a snake game, which would utilize the engine from the world popular mini game, but translate that logic into Android Studios Kotlin.
+
 What I did do?
 A snake game
 A menu screen
 A local data storage solution for usernames and scores
 A multi view app with lots of scalability and dependencies in mind
 Procrastinate
+
 Wish list of features for the next version:
 Skins for the snake/app when you reach a certain score
 Make the game a bit more interesting, like adding obstacles or foes
